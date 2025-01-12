@@ -40,7 +40,8 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 SELECT * FROM mysql.user;
 ```
 
-![all_user](https://github.com/biparasite/DB-12-02HW/blob/main/sql_user.png)
+![all_user](https://github.com/biparasite/DB-12-02HW/blob/main/sql_users
+.png)
 
 - Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
@@ -55,7 +56,7 @@ SELECT * FROM mysql.user WHERE User='sys_temp';
 
 - При работе в IDE сформируйте ER-диаграмму получившейся базы данных.
 
-![sakila](https://github.com/biparasite/DB-12-02HW/blob/main/disakila.png)
+![sakila](https://github.com/biparasite/DB-12-02HW/blob/main/sakila.png)
 
 ---
 
@@ -117,6 +118,6 @@ REVOKE UPDATE, INSERT, DELETE ON `sakila`.* FROM 'sys_temp'@'%';
 SHOW GRANTS FOR sys_temp;
 ```
 
-![user](https://github.com/biparasite/DB-12-02HW-/blob/main/user.png)
+![user](https://github.com/biparasite/DB-12-02HW/blob/main/user.png)
 
 ---
