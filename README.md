@@ -40,8 +40,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 SELECT * FROM mysql.user;
 ```
 
-![all_user](https://github.com/biparasite/DB-12-02HW/blob/main/sql_users
-.png)
+![all_user](https://github.com/biparasite/DB-12-02HW/blob/main/sql_users.png)
 
 - Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
